@@ -1,0 +1,65 @@
+body {
+  background-image: url("./nuvem.jpg");
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  font-family: "Limelight", cursive;
+}
+
+h4 {
+  font-family: "Stint Ultra Expanded", cursive;
+}
+
+h1,
+h2,
+h4 {
+  max-width: 1000px;
+}
+
+.bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.content {
+  /* background-color: #fff;
+  opacity: 0.7; */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text {
+  max-height: 40vh;
+  border-radius: 8px;
+  padding: 20px;
+  overflow: auto;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 39px -13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 39px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 39px -13px rgba(0, 0, 0, 0.75);
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
